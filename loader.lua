@@ -1,4 +1,4 @@
--- Deggy HUB loader. Upload as loader.lua; each game's HUB lives in "<PlaceId>.lua".
+-- Regalia loader. Upload as loader.lua; each game's script lives in "<PlaceId>.lua".
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
@@ -11,14 +11,14 @@ local scripts = {
 
 local fileName = scripts[game.PlaceId]
 if not fileName then
-    print("[Deggy HUB] Game not supported: " .. tostring(game.PlaceId))
+    print("[Regalia] Game not supported: " .. tostring(game.PlaceId))
     return
 end
 
 local BASE = "https://raw.githubusercontent.com/Byoel/Games/refs/heads/main/"
 local env = (getgenv and getgenv()) or _G
 if env.AMLoaderBusy then
-    warn("[Deggy HUB] The script is already loading.")
+    warn("[Regalia] The script is already loading.")
     return
 end
 env.AMLoaderBusy = true
@@ -33,5 +33,5 @@ end)
 
 env.AMLoaderBusy = nil
 if not ok then
-    warn("[Deggy HUB] Loader failed: " .. tostring(err))
+    warn("[Regalia] Loader failed: " .. tostring(err))
 end

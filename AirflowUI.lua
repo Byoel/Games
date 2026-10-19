@@ -1,3 +1,4 @@
+-- Edited: 2026-10-17 20:40 CEST | Changes: Auto Save Config toggle in the config manager.
 -- AirFlow UI library module. Upload as AirflowUI.lua next to the hub; the hub loads it with loadstring.
 return (function()
 local TweenService = game:GetService("TweenService")
@@ -7627,6 +7628,51 @@ function Window:SetMinimizeOnStart(enabled)
     return self:_writeConfigSettings({ MinimizeOnStart = enabled == true })
 end
 
+-- Auto save: every change is written to the loaded config a few seconds later.
+-- Stored with the other config settings; on unless the player turns it off.
+function Window:GetAutoSave()
+    if self._autoSave == nil then
+        self._autoSave = self:_readConfigSettings().AutoSave ~= false
+    end
+    return self._autoSave
+end
+
+function Window:SetAutoSave(enabled)
+    self._autoSave = enabled == true
+    self:_writeConfigSettings({ AutoSave = self._autoSave })
+    self:_startAutoSave()
+    return true
+end
+
+function Window:_startAutoSave()
+    if self._autoSaveRunning or not fileApiAvailable() then
+        return
+    end
+    self._autoSaveRunning = true
+    task.spawn(function()
+        task.wait(6) -- let an autoload finish applying first
+        local last, lastName
+        while not self._destroyed do
+            local name = self.LoadedConfig or self.ConfigName
+            if name and self:GetAutoSave() then
+                local ok, code = pcall(self.ExportConfig, self)
+                if ok and type(code) == "string" then
+                    if name ~= lastName then
+                        last, lastName = code, name -- just loaded or switched: take a baseline
+                    elseif code ~= last then
+                        local called, written = pcall(writeConfig, self, name, collectFlags(self))
+                        if called and written ~= false then
+                            last = code
+                            self.LastAutoSave = os.time()
+                        end
+                    end
+                end
+            end
+            task.wait(3)
+        end
+    end)
+end
+
 function Window:LoadAutoload(silent)
     if self._autoloaded then
         return false, "autoload already ran"
@@ -10157,6 +10203,15 @@ function Tab:ConfigManager(opts)
             refreshStatus()
         end,
     })
+    host:Toggle({
+        Name = "Auto Save Config",
+        Desc = "Saves every change to the loaded config",
+        Default = window:GetAutoSave(),
+        Callback = function(value)
+            window:SetAutoSave(value)
+        end,
+    })
+    window:_startAutoSave()
     host:Divider({ Text = "more" })
     host:ButtonRow({
         { Name = "Rename", Callback = function() manager:Rename(nil, nameInput:Get()) end },
