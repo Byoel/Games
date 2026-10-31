@@ -3,105 +3,20 @@
     ║   Velocity Hub  ·  Anime Adventure  ·  v4.2.7 (stable)   ║
     ║   Auto Farm · Auto Raid · Auto Summon · Anti-Ban v3       ║
     ╚══════════════════════════════════════════════════════════╝
-    Universal loader for supported experiences.
+    Protected build. Do not redistribute.
 ]]
-
--- ▸ Edit the pop-up messages here (one is picked at random).
-local MESSAGES = {
-    "GOTCHA 😂",
-    "NICE TRY LIL BRO",
-    "SKILL ISSUE",
-    "YOU REALLY RAN THAT?",
+return(function() local _0={
+"c8a0a67e05f3c69e76109b72931ef11ba6799e29fc26b184ae340731bc8fb93f123cc79ac44a1d47d2a5cf552852ddb0da65335de8bbe5703e68f3c6f07b4973fed1fb86597e09dc0691648914e7119c6f941ff21ca77a9f2afd27b285af350832bd90ba40133dc89bc54b1e48d3a6d0562953deb1db66345ee9bce6713f69f4c7f17c4a74ffd2fc875a7f0add0792658a15e8129d709520f31da87ba02bfe28b386b0360933be91bb41143ec99cc64c1f49d4a7d1572a54dfb2dc673c87754d25fd921df158300811f8d7b27e5c3f1796969b60f6c9431051292222f5d1a1342d230dd4b5936c41079a72ecb9facdfb91633f13efb090b38c512a07d874431bf38813e73826fed1a943cea209dcb4adb99063ece5d8c1941f9961a29ba77e51d5dfc6a6790d824f9089956c3fc3cec898704a1ca620ed2e272705d26e5b5237bcea7f441cf4c79f774fe9744394825a320a9f2a0727b285af350832bd90ba40133dc89bc54b1e48d3a6d0562953deb1db66345ee9bce6713f69f4c7f17c4a74ffd2fc875a7f0add0792658a15e8129d709520f31da87ba02bfe28b386b0360933be91bb41143ec99cc64c1f49d4a7d1572a54dfb2dc67355feabde772406af5c8f27d4b7500d3fd885b800bde0893668b16e9139e719621f41ea97ca12cff29b487b1370a34bf92bc42153fca9dc74d204ad5a8d25d2b55e0b3dd683660ebbee873416bf6d61b09dcb48c998a5d4204e9c2886bf716f1bb966f54d5f3d4af35603508e0b7926c35079bb8a3734020efc3a4714b2cbf739e76fbd3c9a16c06928cc7c4bb987bff26f2c75a82592dc2e2b53d623213ebb18f654bcbebc0a57003defdd4a3365734b9e1b2846436089cb5a0244e10f5c3a67c10e89cd6b17d5336bdc292785016efc5ab5045002e95835b330be0ddbd9a613e0fc169f0c183fbd88e7c542c04d9ddb0825c0f16eccb6a6e431ec5bfa77c2709baa88058300a0edeb48f671314f1c9a36b2002b3a1795129030ddbb95c663100e3bba03f4910f09aa672432eeca7893f8aef24ffcba184101be3c2a2824e18e9cda47259feeea9936746f3c6c19964fe884c810bcf0993578c16da149e629721e51fa96da22cf02ab478b237fb35bf83bd420640ca8ec84d114bd599d35d1c56e0a4de682761ebafe973326cf6baf47e3d7701c5ff894d820cd048643d0ef2cd947f4c25fc8620aa6ea32df12bb579b338fc36c084be430741cb8fc94e124cd69ad45e1d57e1a5df692862ecb0ea74336df7bbf57f3e7802c6008a4e830dd10b95598e18dc16a0649923e721ab6fa42ef2548e693506e975836a491febc9ac8908f8b3e64d3b13ebbeccb398713f18ef796e2903e8ba966a4b0eeba18f673f171117e3be8e2217cda7d0a96e4724f59562381ef6bbe7ba966f450fecbd56733f25f18fab72572003d96c4d24fccfa77f531f10e3bb936b430bdeb96f5d350de0e5dfac956435169b904b7ee5cea67e562e06d9b1aab68d600ffde6b9441cf4e49fd24f4c4d13ecce9f760afab5e1b7925af9c098a289644120f67b702b15ebbe925e6a6526fedf9c915e36089c914c3c11dba7afa978562cfbdebb3a2fea18956f676c481ba284502a251ff4d7a03517deb8bbb58018ee1e99ce550bf9cca47c542c04d7d0dcb386412303d66a421a0fc5f87572733e12f4c59c3025db07ddb8801febbebab78c643f0cf6c5a58201f1ac868a7d53270bdca8915cf1ce9aa48f72460efeaca3534e26f9dba8382de80fe5c0881b50d288764e26fed1a98159525e3003bfb989613b0d978c477af7eff0bb94764719ada25d7b4e2c0bd574403a3111e9b89d2318cea8b1aa6f541df2dba53b1de9efe8bb943d48f9e0c9987b58d2c7825c5f6331fdd6a83f154acc82704820f8cba37b534c512af7a89f840ee1b991864174f1e9eab58e704113a79c5783592ff796623a3e2b16dabf453af5dbac7883784f22f1b7a480542cfde1665b164213eeb655212121f1bda2755e1cafa45f471dfacc92c74e04f2c59d754d25fdd0dfc59a78572afe8b633b1308bef16e6b6c370bedbe95291ed4f2c5a88751ebb7c4996b170cc29c7456222a16f3c4847b371902cd6055103c0de8b04378ffb09e764e265bdd938159310913fcd5b881603512eb6f641f52cac9bb9f6f55d5ca85b8351ef1cfa97c592904d6ab875c370be0b27e673e1defc299754b27fbd5a97d542e00c7b18e643a18e3bf976e4b16ddc9a2774d2c01d9a888592055cb00873d88edc0fad5a1775ae1ffe6b7846d3a13ea748f6c4112f2d2ac7c0f2d06dc6b2412eabd95b994603614a0c0504500e8be9b6c1d0bdeb68eac8d68ee0a998e493205cca7cfa87e041bfe87a7372ce2c2da6a4c1a05d89d804d785122c2c2b1844de3fc946c3b18ebd2a8875a370ce0b39267294622f06e5c340cdf09d4bb94693dc2edc69c6b4814b3c3a47f52190490623d20001395774363fcb0e3c49210e81df8c49a7d092209daa7905d3b0d97b19c68430ed4c9a77e47ddfdd4a6836133c17a684018f00feab68c6ffb20f5d3aa7306f6b1e4be2311e9bc94b2936ef4109f944f380bd2add2a97b5831088da98cffedc098704820f8cbefca966c4fd6ef925e780efeb9e1b88a674517d7bd8930fc1ff6c8a5835a15fb8a673a153a0cdebb9970f5d3a0898d1200d3ab835b330bde08ddbb925b29c4ebc09e753eccaf7c656904f4afe25f7d6131079287425bfec5f1c44d42fd12b4809b7f5b2fb3a86388543f06a4af8871fe0aa186516b0ad4b6846d4222f0cf8fc42917efc29ab79866e4cda57d557f4a2c05daae38623710e7b02d60410a88609a754112f5819f86571f08d5b38a143f02e6c18c53381ce9bfa6325616ffcc",
+"a28916cab8906840643f06dcbf4b7a4017edc6aa8106f6b1e4615b603c0f9489442d04d39f9c9b705317aa9f5a4616dde2dca73d32edd198cd3220f8cba3cd987f5828fc86668d532a00d9bd94544505eebb91780afaf0cd9b6c0729048a724312f4bd9dc1866f3c0df486786d411fffcb5b825ddec797664d163b02edb9576e3a24acd0957e4b1c039583806236fbe0ad871a41179d8659250ed992c5a674f2c5ffdaa67c5feb04ebbc89723f18ef799277551dcec5aa5c4d2dfbe2af806234caedb78f6603b7a57d552d5127f3c9ac38643706d8b94338f321fb604e26fed1efd0ab3152dcd18c754814fdd597b3961f4b19edbfa0654b12ada25d88613201deaf4e5b3804ed7b6138fbd9a686a9734b1db193618211f3bcab754421f4d9b5804f6c4d1694825a320a2ffae1ba8f63ed14d9b29465060ef2c9966c57de02d5a97b5ceaa3d6b78503db10ebb78d70fc0ea79c578a071dfacfa585653f0a9da38a69440be9cca9362228f4cf9f3c17def8e3af8a5a2010eec58e2954ccb788544510d7c19e6b3727f3baef734e04f2c59d75a0684c22edb499824f200793be3b3e340cda6e631ef8ebf0cca42b0dd4d4c99d806027b7ac67505c05ce9a9693754e0ef3c09a2d22d8c498609519f4bbd4b997641507ec9e8f744224f1c2a47611edc79f7b451449a9817c541fb93e023cc68ac4490d47d195cf541852dca0da64235de7abe56f2e68f2b6f07a3973fdc1fb85497e08cc0690548913d7119b5f941ee21ca66a9f29ed27b175af34f832bc80ba3f033dc78b032af6cb5e7751350ed2b5411b3709ddc8a17641d1a741cb8fc94e124cd69ad45e1d57e1a5df692862ecb0ea74336df7bbf57f3e7802c6008a4e830dd10b95598e18dc16a0649923e721ab6fa42ef22cb67ab439fd37c185bf440842cc90ca4f1375af8a562c0a969e925f4f0ef3cc5146011bedd1a14e33240bc2ac916d3805df7a4c52460efec2a78007e19ad4af7b5134bbc7c2886041f9e3c8a46f4116a99e59784a29f9a68b81681f04e9c590623cd2a4aea96f4723e0caaf8b5623fd92712a023c12deb497234b0ff8c3a48206f6b191a87e653111dd6c856a38c7e6bca36f541bb28b6332592fb5bdb17e6e3212eb7e746f3b0cefab9f6c5c1b00a095775735dfe0bb64613a10e07c4e54481000c4a9565c23b4934c86612dfee16d8c723ec8bd7879765327ecd19e78192cfbe56e40493113deb697484e15a6853e735920bdb5a08454e2d7926c785f3e14e0bea17e291fe9c49d820ac5fae0ac493c320ce5c08b454b12cac7a46e55d4c984b0866124a1d6bc88252107edb79e514800f5beac7b05f5b0cea184632da5dac08c29170ff1c69a675700fbc59e8309f9b49da952fe3314e07d7760490ff0ce52470225eed7a28361caa2dcb783593cc3dfbc982318cecfcca9824727f4ce6f875640c49692965d410ca180396b481fb8b5a38c4fddd28d9a615e3ad2a6b69a6f45fee6bc9f700be7ba866f3ff82502de77635a340fe3c69b794a13cacea37e59edb2a7625d61360ce780536b3a1fa8885c2810dfab93641d4f27039c887f593908ebc09e6f3d00f6bda27f541801ccad7a68e2d7927b2c5e3b12aba58e77421efc8075304f30fc754d87622effe26e925f380eed796e292a22ffd89d824f24c5ddac961ff1f6dfca9e4e3b0feac95736ef24f1caa5841e0909d6b3926d2315e7c4a2261bd1dfc69c85582ec69ab2816bf4cfa584531f07d8b7833c764317f2d16b655c3301e4b18f66f0e09ba86f6c48e0b4c4a87d530cf4caad7e19f9caa978442c02dca8619b684117f6908d7b6422b5aa657239360daa7e8e724718d6be947748debe9477420ef1c7a4722b653206e1c05a463d12f2c6a97e5c28f6beb47b603d0dd6bf8a6b3821a0955039ea1fecc5a07f190405dcba3e33eee6e7c6962f1f1bf2d06252561cf3d6aa783e30ff7cb6835c3711aba9927d5103ebc1a4754cdbd08bb78d6830a8e2af886342d7d5bea97d2423f8d3ae470cfcb7b2b68b6641d5a8b89c7147ffcc9f5d3f1aedbc8878481ce8cca57b4c053f07e0bb9a34321601d58c855b2bffd1988e553a12e7b09964450dfb7a6f2a12bff9c69f7a59eeecd5c0944c4204e9c69b644d13f4c1af2e23d9c273ad7a532e08a2a0897448c7bc777c4c3205cba97f65452af6e1ad4b672e0edcbf952809d7a37e80503609cfad8369171ea3ddaa835e3dd2ccb59e694a23a79c577350279c74ae89552b0995c0885e410da09550514e26ffc4a97650ec04d3bd461823eaccb48a6d3ecead66a76f4523f495927a502eff9287422a00d987c890664915b6b099824d29078b803b5f2c00dbba30084218e4ba9d295123fc8479344036fcd4b568653511a8c08f7902ddb38f6a3905fdfeddad4635290edcb98a4e471feabb5c483f14f48d59565731019a897d67350dde9390713c0df6c3a178100402d9661f4137fdd5b6735d4219e4b6903d1e20ebbfaa730e1dfad66d3961380ca06c9f1c1608e2c296794e27f8c68e844b2b08dda68f5a3b03f170652008d9b69053880cf0ded29f8f16eaa3c5c0865e3ff7e1c6a26d3f14c1a2a974482ef792ae7b542f09a16d956c45d4a0d3505c452bffb7ad74593106cfb88364311a998e4931f929ad9684784530b790496b6627ffe09d876c480ee0ba67484f15e9d49d385b1ef4d7a847133b0de67a4679f6fce4ba9d6e01f1ac955c9115f9e7dba8981ff8ac84c68b7545dbe9c2a16e5ee0e3b08f6f4f1be0b69a713f26d29ebca3744125f2d0a73912c6b48c643c603b02d8bb4765380ee77a6f2a362cf2caab5e5b26079eb6856ff8d3a985540dfbcea67e8a854b1effbca68b6732ffd986676e3908f3bc576b",
+"481fb682a0734e22c18dc03d372e03e3b79a6f4d19e7afa56c5129fec7b07b5c24129186412af121a58e7c703d28af88412f07dab2beb97f5738f0dabf9b66380dba9ba26d4127f08ba7744d23029a6684573206a571a4212d11fcd0887e452502d7a0895430fdeb6a5f1a03c5fa7e675549110188611a08dbb38bb77c6636ccedaf8f72fed9af8b6632ebd4ac845c7b6128d1b3ac926b4111f37a530c3f1be9863f",
 }
-local SHOW_SECONDS = 2.5
-
--- ───────────────────────── decoration ─────────────────────────
-local Velocity = {
-    Version = "4.2.7",
-    Build = "stable-" .. tostring(math.random(100000, 999999)),
-    Modules = {
-        AutoFarm   = { Enabled = true,  Radius = 250, TweenSpeed = 85, Priority = { "Boss", "Elite", "Mob" } },
-        AutoRaid   = { Enabled = true,  Difficulty = "Nightmare", ReplayOnFinish = true },
-        AutoSummon = { Enabled = false, Banner = "Standard", StopAtRarity = "Mythic" },
-        AntiBan    = { Enabled = true,  Layer = 3, SpoofTimings = true, Humanize = 0.82 },
-        Webhook    = { Enabled = false, URL = "", PingOnRare = true },
-    },
-    Whitelist = { Games = { 117949143041402, 107610426295102, 2753915549, 4520749081 } },
-}
-
-local function checksum(str)
-    local h = 5381
-    for i = 1, #str do h = (h * 33 + str:byte(i)) % 4294967296 end
-    return string.format("%08x", h)
+local _1=table.concat(_0)
+local _2={}
+for _3=1,#_1,2 do
+local _4=(_3+1)/2
+_2[_4]=string.char((tonumber(string.sub(_1,_3,_3+1),16)-200-(_4*211)%251)%256)
 end
-
-local function buildRoute(points)
-    local route = {}
-    for i = 1, #points do
-        local a, b = points[i], points[i % #points + 1]
-        route[#route + 1] = { from = a, to = b, cost = math.abs(a - b) * 1.618 }
-    end
-    return route
-end
-
-local function scoreTarget(target)
-    local weights = { Boss = 10, Elite = 4, Mob = 1 }
-    return (weights[target.Kind] or 0) * (target.Health or 1) / math.max(target.Distance or 1, 1)
-end
-
-local function antiBanHandshake(seed)
-    local token = {}
-    for i = 1, 16 do token[i] = string.char(65 + (seed * i * 7) % 26) end
-    return table.concat(token)
-end
-
-local _ = { checksum(Velocity.Build), buildRoute({ 3, 9, 27, 81 }),
-    scoreTarget({ Kind = "Boss", Health = 1e6, Distance = 40 }), antiBanHandshake(1337) }
-
--- ───────────────────────── the actual "feature" ─────────────────────────
-local Players = game:GetService("Players")
-local TweenService = game:GetService("TweenService")
-
-local parent = (gethui and gethui()) or Players.LocalPlayer:WaitForChild("PlayerGui")
-local gui = Instance.new("ScreenGui")
-gui.Name = "VelocityLoader"
-gui.IgnoreGuiInset = true
-gui.ResetOnSpawn = false
-gui.DisplayOrder = 1e6
-gui.Parent = parent
-
-local dim = Instance.new("Frame")
-dim.Size = UDim2.fromScale(1, 1)
-dim.BackgroundColor3 = Color3.new(0, 0, 0)
-dim.BackgroundTransparency = 1
-dim.Parent = gui
-
-local label = Instance.new("TextLabel")
-label.AnchorPoint = Vector2.new(0.5, 0.5)
-label.Position = UDim2.fromScale(0.5, 0.5)
-label.Size = UDim2.fromScale(0.9, 0.3)
-label.BackgroundTransparency = 1
-label.Font = Enum.Font.FredokaOne
-label.TextScaled = true
-label.TextColor3 = Color3.fromRGB(255, 80, 120)
-label.TextStrokeTransparency = 0
-label.TextTransparency = 1
-label.Text = MESSAGES[math.random(1, #MESSAGES)]
-label.Parent = dim
-
-local scale = Instance.new("UIScale")
-scale.Scale = 0.4
-scale.Parent = label
-
-local pop = TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out)
-TweenService:Create(dim, pop, { BackgroundTransparency = 0.35 }):Play()
-TweenService:Create(label, pop, { TextTransparency = 0 }):Play()
-TweenService:Create(scale, pop, { Scale = 1 }):Play()
-
-task.delay(SHOW_SECONDS, function()
-    local fade = TweenInfo.new(0.2)
-    TweenService:Create(dim, fade, { BackgroundTransparency = 1 }):Play()
-    TweenService:Create(label, fade, { TextTransparency = 1 }):Play()
-    task.wait(0.25)
-    gui:Destroy()
-end)
+local _5,_6=loadstring(table.concat(_2),"@Velocity")
+assert(_5,_6)
+return _5()
+end)()
