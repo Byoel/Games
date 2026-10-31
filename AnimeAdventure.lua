@@ -1,6 +1,6 @@
 --[[
     ╔══════════════════════════════════════════════════════════╗
-    ║   Velocity Hub  ·  Universal Loader  ·  v4.2.7 (stable)  ║
+    ║   Velocity Hub  ·  Anime Adventure  ·  v4.2.7 (stable)   ║
     ║   Auto Farm · Auto Raid · Auto Summon · Anti-Ban v3       ║
     ╚══════════════════════════════════════════════════════════╝
     Universal loader for supported experiences.
