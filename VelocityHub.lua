@@ -3,8 +3,7 @@
     ║   Velocity Hub  ·  Universal Loader  ·  v4.2.7 (stable)  ║
     ║   Auto Farm · Auto Raid · Auto Summon · Anti-Ban v3       ║
     ╚══════════════════════════════════════════════════════════╝
-    Prank build: everything below is decoration. Nothing here farms,
-    reads, sends or saves anything. It only shows a message for 2.5 s.
+    Universal loader for supported experiences.
 ]]
 
 -- ▸ Edit the pop-up messages here (one is picked at random).
